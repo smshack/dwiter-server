@@ -1,0 +1,29 @@
+{
+  "name": "dwitter",
+  "version": "1.0.0",
+  "description": "dwitter clonecoding server",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smshack/dwiter-server.git"
+  },
+  "author": "Dream coding Academy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smshack/dwiter-server/issues"
+  },
+  "homepage": "https://github.com/smshack/dwiter-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.1",
+    "morgan": "^1.10.0"
+  }
+}
